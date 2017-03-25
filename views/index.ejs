@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up Login</title>
+	<link rel="stylesheet" href="/stylesheets/style.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'> -->
+</head>
+<body>
+	<div class="cotn_principal">
+		<div class="cont_centrar">
+			<div class="cont_login">
+				<div class="cont_info_log_sign_up">
+					<div class="col_md_login">
+						<div class="cont_ba_opcitiy">
+							<h2>登录</h2>
+							<p>Welcome you come again</p>
+							<button class="btn_login" onClick="cambiar_login()">登录</button>
+						</div>
+					</div>
+					<div class="col_md_sign_up">
+						<div class="cont_ba_opcitiy">
+							<h2>注册</h2>
+							<p>Welcome you to join</p>
+							<button class="btn_sign_up" onClick="cambiar_sign_up()">注册</button>
+						</div>
+					</div>
+				</div>
+				<div class="cont_back_info">
+					<div class="cont_img_back_grey"> <img src="/images/po.jpg" alt="" /> </div>
+				</div>
+				<div class="cont_forms" >
+					<div class="cont_img_back_"> <img src="/images/po.jpg" alt="" /> </div>
+					<div class="cont_form_login"> <a href="#" onClick="ocultar_login_sign_up()" ><i class="material-icons"><</i></a>
+						<h2>登录</h2>
+						<input type="text" id="l_username" placeholder="Username" />
+						<input type="password" id="l_password" placeholder="Password" />
+						<button class="btn_login" id="login">登录</button>
+					</div>
+					<div class="cont_form_sign_up"> <a href="#" onClick="ocultar_login_sign_up()"><i class="material-icons"><</i></a>
+						<h2>注册</h2>
+						<input type="text" id="s_username" placeholder="Username" />
+						<input type="password" id="s_password" placeholder="Password" />
+						<input type="password" id="s_confirm_password" placeholder="Confirm Password" />
+						<input type="text" id="email" placeholder="Email" />
+						<button class="btn_sign_up" id="sign_up">注册</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/util.js"></script>
+	<script type="text/javascript" src="/javascripts/index.js"></script>
+</body>
+</html>
